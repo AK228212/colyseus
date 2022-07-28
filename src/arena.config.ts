@@ -18,21 +18,21 @@ export default Arena({
     },
 
     initializeExpress: (app) => {
-        /**
-         * Bind your custom express routes here:
-         */
-        app.get("/", (req, res) => {
-            res.send("Welcome to Babylon Server Side!");
-        });
+      /**
+       * Bind your custom express routes here:
+       *
+       */
 
-        
+      app.get("/", (req, res) => {
+        res.send("Welcome to Babylon Server Side!");
+      });
 
-        /**
-         * Bind @colyseus/monitor
-         * It is recommended to protect this route with a password.
-         * Read more: https://docs.colyseus.io/tools/monitor/
-         */
-        app.use("/colyseus", monitor());
+      /**
+       * Bind @colyseus/monitor
+       * It is recommended to protect this route with a password.
+       * Read more: https://docs.colyseus.io/tools/monitor/
+       */
+      app.use("/colyseus", monitor());
     },
 
 
