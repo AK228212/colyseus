@@ -1,0 +1,9 @@
+[7/26/2022, 11:08:37 AM] @colyseus/loadtest
+endpoint: ws://localhost:2567
+roomName: my_room
+numClients: 2
+scriptFile: D:\Babylon-server\loadtest\example.ts
+logLevel: all
+output: D:\Babylon-server\loadtest.log
+[7/26/2022, 11:08:39 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/26/2022, 11:08:39 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
