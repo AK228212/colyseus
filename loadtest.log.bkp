@@ -1,0 +1,21 @@
+[7/28/2022, 11:20:54 AM] @colyseus/loadtest
+endpoint: ws://localhost:2567
+roomName: my_room
+numClients: 10
+scriptFile: D:\Babylon-server\loadtest\example.ts
+logLevel: all
+output: D:\Babylon-server\loadtest.log
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:20:54 AM] Error: connect ECONNREFUSED 127.0.0.1:2567
+[7/28/2022, 11:21:01 AM] Finished. Summary:
+Successful connections: 0
+Failed connections: 10
+Total errors: 10
